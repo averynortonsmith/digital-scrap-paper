@@ -17,7 +17,7 @@ for taking notes as I work throughout the day. I've used
 other note-taking tools in the past, but lately I've been trying to minimize
 the amount of data I store in the cloud. I could always use sublime or another
 text editor for taking notes, but I wanted something that I could use from my 
-browser. 
+browser without installing any additional software.
 
 The application uses the following 5 lines of Javascript:
 ```js
