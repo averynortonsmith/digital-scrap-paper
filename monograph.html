@@ -52,14 +52,9 @@
         <script type="text/javascript">
             titleInput = document.getElementById('titleInput');
             titleInput.addEventListener("input", function (e) {
-                makeTitle();
-            });
-
-            function makeTitle(){
                 title = titleInput.value;
                 document.title = title != "" ? title : "untitled";
-            };
-
+            });
         </script>
     </body>
 </html>
