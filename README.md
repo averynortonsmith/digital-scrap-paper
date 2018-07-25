@@ -12,7 +12,7 @@ find it useful as well.
 
 **How I use this little editor:**
 
-I use this application (if you can even call it that),
+I use this application
 for taking notes as I work throughout the day. I've used
 other note-taking tools in the past, but lately I've been trying to minimize
 the amount of data I store in the cloud. I could always use sublime or another
@@ -27,9 +27,9 @@ titleInput.addEventListener("input", function (e) {
     document.title = title != "" ? title : "untitled";
 });
 ```
-which updates the title of the page when the title of the note changes.
+This code updates title of the page when the title of the note changes.
 When I want to save my note, I just save the whole page using `ctrl-s`,
-to a "notes" directory on my desktop: a note titled "myNote" gets saved
+to a "notes" directory on my desktop: for example, a note titled "myNote" gets saved
 as `myNote.html`. Firefox also saves the contents of the textbox in the saved 
 page-source. That way, when I want to view or edit my note, I can just open
 up `~/Desktop/notes/myNote.html` in my browser, and overwrite the saved file
