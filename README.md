@@ -7,8 +7,7 @@ Your data never leaves your computer: no cloud storage, no browser extension.
 
 This project is basically just a glorified textbox. I'm sharing it here
 not because it's particularly inventive in and of itself, but because I've
-found that it fits nicely into my workflow, and I though that others might
-find it useful as well.
+found it surprisingly useful, and I though that it might be of interest to others.
 
 **How I use this little editor:**
 
@@ -34,7 +33,8 @@ page-source. That way, when I want to view or edit my note, I can just open
 up `~/Desktop/notes/myNote.html` in my browser, and overwrite the saved file
 if I make any changes. 
 
-I find myself using this tool pretty often - it works well for taking quick notes and making lists,
+I've found that, since I made this tool, I've gotten a lot better about writing 
+notes and making lists as I work. This tool encourages me to dump my thoughts periodically,
 in part because it feels even more "lightweight" than making a new 
 Google Doc or firing up a text editor - it's like digital scratch-paper!
 And best of all, my data never leaves my computer!
