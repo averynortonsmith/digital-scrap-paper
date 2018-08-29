@@ -1,4 +1,4 @@
-# monograph
+# digital scrap paper
 
 A little in-browser note taking appliaction focused on simlicity and privacy.  
 Your data never leaves your computer: no cloud storage, no browser extension.
