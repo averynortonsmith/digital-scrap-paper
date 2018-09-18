@@ -30,7 +30,7 @@ titleInput.addEventListener("input", function (e) {
 When I want to save my note, I just save the whole page using `ctrl-s`,
 to a "notes" directory on my desktop. Firefox also saves the contents of the textbox in the saved 
 page-source. That way, when I want to view or edit my note, I can just open
-up `~/Desktop/notes/myNote.html` in my browser, and overwrite the saved file
+up `~/Desktop/notes/noteName.html` in my browser, and overwrite the saved file
 if I make any changes. 
 
 I've found that, since I made this tool, I've gotten a lot better about writing 
