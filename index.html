@@ -50,7 +50,7 @@
         <textarea id="editor" class="text" ></textarea>
 
         <script type="text/javascript">
-            titleInput = document.getElementById('titleInput');
+            const titleInput = document.getElementById('titleInput');
             titleInput.addEventListener("input", function (e) {
                 title = titleInput.value;
                 document.title = title != "" ? title : "untitled";
