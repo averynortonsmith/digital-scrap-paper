@@ -11,9 +11,11 @@
               height: 100%;
               width: 100%;
               margin: 0px;
-              padding: 0px;
+              padding: 20px 0px;
               min-width: 600px;
-              overflow-y: hidden; 
+              box-sizing: border-box;
+              position: absolute;
+              top: 0px;
             }
 
             .text {
@@ -21,8 +23,7 @@
               border: 1px solid #ddd;
               border-radius: 2px;
               display: block;
-              margin-left: auto;
-              margin-right: auto;
+              margin: auto;
               font-family: Dejavu Sans Mono;
               font-size: 12px;
               outline: none;
@@ -30,16 +31,14 @@
             }
 
             #titleInput {
-              margin-top: 20px;
               padding: 4px 20px;
               height: 24px;
             }    
 
             #editor {
-              overflow-y: auto;
               resize: none;
-              margin-top: 10px;
-              height: calc(100% - 80px);
+              margin: 10px auto 20px auto;
+              min-height: calc(100% - 40px);
               padding: 20px 20px 5px 20px;
             }      
         </style>
@@ -47,10 +46,10 @@
 
     <body>
         <input id="titleInput" class="text" value="untitled" type="text" autofocus/>
-        <textarea id="editor" class="text" ></textarea>
+        <div id="editor" class="text" contenteditable></div>
 
         <script type="text/javascript">
-            titleInput = document.getElementById('titleInput');
+            const titleInput = document.getElementById('titleInput');
             titleInput.addEventListener("input", function (e) {
                 title = titleInput.value;
                 document.title = title != "" ? title : "untitled";
