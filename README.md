@@ -3,7 +3,7 @@
 A little in-browser note taking appliaction focused on simlicity and privacy.  
 Your data never leaves your computer: no cloud storage, no browser extension.
 
-**Link to publicly hosted copy:** http://averyn.scripts.mit.edu/monograph/
+**Link to publicly hosted copy:** http://averyn.net/paper.html
 
 This project is basically just a glorified textbox. I'm sharing it here
 not because it's particularly inventive in and of itself, but because I've
